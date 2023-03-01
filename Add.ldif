@@ -1,0 +1,76 @@
+# Unidad organizativa astronautas
+dn: ou=astronautas,dc=ejemplo,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: astronautas
+
+# Astronauta Sara en la ud.organizativa astronautas
+dn: uid=Saraga,ou=astronautas,dc=ejemplo,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: Sara
+sn: garcia alonso
+cn: Saraga
+
+
+# Astronauta Pablo en la ud.organizativa astronautas
+dn: uid=Pabloaf,ou=astronautas,dc=ejemplo,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: Pablo
+sn: alvarez fernandez
+cn: Pabloaf
+
+
+# Astronauta Samantha en la ud.organizativa astronautas
+dn: uid=Samanthac,ou=astronautas,dc=ejemplo,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: Samantha
+sn: cristoforetti
+cn: Samanthac
+
+
+# Unidad organizativa instrumentos
+dn: ou=instrumentos,dc=ejemplo,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: instrumentos
+
+# Instrumento Perseverance en la ud.organizativa instrumentos
+dn: uid=Perseverance,ou=instrumentos,dc=ejemplo,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: perseverance
+sn: Perseverance
+cn: Perseverance
+
+
+# Instrumento Curiosity en la ud.organizativa instrumentos
+dn: uid=Curiosity,ou=instrumentos,dc=ejemplo,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: curiosity
+sn: Curiosity 
+cn: Curiosity
+
+
+# Instrumento Spirit en la ud.organizativa instrumentos
+dn: uid=Spirit,ou=instrumentos,dc=ejemplo,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: spirit
+sn: Spirit
+cn: Spirit
